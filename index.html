@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2203040158</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- NAVBAR CREATION -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="https://who-is-darren-armani.darrenarmani.repl.co">My Portfolio (Example project)</a>
+            <a href="#">Contact Me</a>
+            <!--GANTI TEMA -->
+            <a><i class='bx bxs-sun' onclick="gantiTema()"></i></a>
+        </nav>
+
+    </header>
+    <!-- LOGIN FORM CREATION -->
+    <div class="background"></div>
+    <div class="container">
+        <div class="item">
+            <h2 class="logo"><i class='bx bx-pyramid'></i></i> YUNIF PUTRA PRADEKA</h2>
+            <div class="text-item">
+                <h2>Welcome! <br><span>
+                        interested in my services?
+                    </span></h2>
+                <h1>Checkout now.!!!</h1>
+                <p>I can design and develop a custom responsive website in <span>ASP.NET, HTML & CSS, JavaScript and
+                        PHP</span> </p>
+                <div class="social-icon">
+                    <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="https://www.instagram.com/1_darren.armani/"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://github.com/yunifp"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="login-section">
+            <!-- header start -->
+            <div class="header">
+                <ul>
+                    <li class="active form_1_progressbar">
+                        <div>
+                            <p>1</p>
+                        </div>
+                    </li>
+                    <li class="form_2_progressbar">
+                        <div>
+                            <p>2</p>
+                        </div>
+                    </li>
+                    <li class="form_3_progressbar">
+                        <div>
+                            <p>3</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- header end -->
+
+            <!-- form start -->
+            <div class="form_wrap">
+                <div class="form_1 data_info">
+                    <h2>Sign Up</h2>
+                    <form action="" method="post">
+                        <div class="form_container">
+                            <div class="input_wrap">
+                                <label for="email_address">Email Address</label>
+                                <input type="email" name="Email Address" id="email_address" placeholder="your email" />
+                            </div>
+                            <div class="input_wrap">
+                                <label for="password">Password</label>
+                                <input type="password" name="Password" id="password" placeholder="your password" />
+                            </div>
+                            <div class="input_wrap">
+                                <label for="password">Confirm Password</label>
+                                <input type="password" name="Password" id="password1"
+                                    placeholder="confirm your password" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="form_2 data_info" style="display: none">
+                    <h2>Sign up</h2>
+                    <form action="" method="post">
+                        <div class="form_container">
+                            <div class="input_wrap">
+                                <label for="first_name">First Name</label>
+                                <input type="text" name="FirstName" id="first_name" placeholder="your first name" />
+                            </div>
+                            <div class="input_wrap">
+                                <label for="last_name">Last Name</label>
+                                <input type="text" name="LastName" id="last_name" placeholder="your last name" />
+                            </div>
+                            <div class="input_wrap">
+                                <label for="user_name">Phone number</label>
+                                <input type="text" name="Phone" id="Phone" placeholder="your phone number" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="form_3 data_info" style="display: none">
+                    <h2>Sign Up</h2>
+                    <form action="" method="post">
+                        <div class="form_container">
+                            <div class="input_wrap">
+                                <label for="current_company">Country/region</label>
+                                <input type="text" name="Country" id="Country" placeholder="your country" />
+                            </div>
+                            <div class="input_wrap">
+                                <label for="total_experience">City</label>
+                                <input type="text" name="City" id="City" placeholder="your city" />
+                            </div>
+                            <div class="input_wrap">
+                                <label for="designation">Postal code</label>
+                                <input type="text" name="Postal" id="Postal" placeholder="your postal code" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+
+            </div>
+            <!-- form end -->
+
+            <!-- dont have a account -->
+            <div class="dont">
+                <p>already have a account?.</p><a href="login.html">sign in</a>
+            </div>
+
+
+            <!-- btns start -->
+            <div class="btns_wrap">
+                <div class="common_btns form_1_btns">
+                    <button type="button" class="btn_next">Next</button>
+                </div>
+                <div class="common_btns form_2_btns" style="display: none">
+                    <button type="button" class="btn_back">Back</button>
+                    <button type="button" class="btn_next">Next</button>
+                </div>
+                <div class="common_btns form_3_btns" style="display: none">
+                    <button type="button" class="btn_back">Back</button>
+                    <a href="login.html" class="doneee">
+                        <button type="submit" class="btn_done">Done</button>
+                    </a>
+                </div>
+            </div>
+            <!-- btns end -->
+        </div>
+    </div>
+    <!-- SIGN UP FORM CREATION -->
+
+    <script src="script.js"></script>
+</body>
+</html>
